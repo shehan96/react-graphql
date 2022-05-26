@@ -6,6 +6,11 @@ type AuthProps = {
   location: string;
 };
 
+/**
+ * 
+ * @param param0 
+ * @returns 
+ */
 export const Auth = ({ children, location }: AuthProps) => {
   const isLog = localStorage.getItem('isLog');
 
